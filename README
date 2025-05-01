@@ -1,0 +1,36 @@
+# MNIST Digit Recognition
+
+This project implements a Convolutional Neural Network (CNN) to classify handwritten digits using the MNIST dataset. The model is built and trained in Python using TensorFlow and Keras, and run on Google Colab.
+
+##  Overview
+
+- **Dataset**: [MNIST Handwritten Digits](http://yann.lecun.com/exdb/mnist/)
+- **Model Type**: Convolutional Neural Network (CNN)
+- **Tools**: TensorFlow, Keras, Google Colab
+- **Accuracy**: Achieves ~98% accuracy on the test set
+
+##  Model Architecture
+
+- **Input Layer**: 28x28 grayscale image
+- **Convolutional Layer**: 32 filters, 3x3 kernel, ReLU
+- **Pooling Layer**: MaxPooling 2x2
+- **Convolutional Layer**: 64 filters, 3x3 kernel, ReLU
+- **Pooling Layer**: MaxPooling 2x2
+- **Flatten + Dense Layers**
+- **Output Layer**: 10 neurons with Softmax activation
+
+##  How to Run
+
+1. Open the notebook in [Google Colab](https://colab.research.google.com/).
+2. Run all cells step by step.
+3. View training accuracy, test accuracy, and prediction results.
+
+##  File Structure
+
+- `MNIST_Digit_Recognition_Model_Using_CNN.ipynb`: Main implementation notebook
+
+##  Author
+
+- GitHub: [@Mgclaman](https://github.com/Mgclaman)
+
+
